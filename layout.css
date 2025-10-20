@@ -1,0 +1,88 @@
+/************** Index **************/
+@media (min-width: 840px) {
+  .forside_bunden {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .forside_tekst {
+    order: 1;
+  }
+
+  .forside_billede {
+    order: -1;
+  }
+}
+
+/************** MitLayout **************/
+@media (min-width: 840px) {
+  .layouttekst_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .liste_grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 2rem;
+    justify-content: center;
+    padding: 1rem;
+    grid-template-columns: repeat(2, max-content);
+  }
+}
+/************** Udstyr **************/
+
+@media (min-width: 840px) {
+  .introudstyrgrid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+@media (min-width: 840px) {
+  .beholdere_jord {
+    display: grid;
+    gap: 20px;
+    order: -1;
+  }
+}
+.sologvand_1-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 840px) {
+  .sologvand_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    grid-template-areas: "skift7 teksttilsologvand";
+  }
+
+  .teksttilsologvand {
+    grid-area: skift7;
+  }
+
+  .skift7 {
+    grid-area: teksttilsologvand;
+    width: 100%;
+    height: auto;
+  }
+
+  .udstyrphoto_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+/************** Planter **************/
+@media (min-width: 840px) {
+  .container_planter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}

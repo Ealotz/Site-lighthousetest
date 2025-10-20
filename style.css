@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/********* Header *******/
+
+.tomarlogo {
+  border: none;
+  width: 80px;
+  display: block;
+  margin-left: 1.5rem;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #edc4be;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 30px;
+  color: #c05555;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  margin-right: 1.8rem;
+}
+
+.menu a:hover {
+  color: #b5ecc5;
+  background-color: rgb(152, 184, 115);
+}
+
+/************** Index **************/
+
+.index {
+  background-color: #b6cc89;
+}
+
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 6rem;
+  margin-bottom: 3.2rem;
+  color: #d36e8f;
+}
+
+@media (max-width: 840px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+.buttons_1-1-1 {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #fdeca2;
+  padding: 20px 40px;
+  border-radius: 30px;
+  border: 4px solid #9f3c5d;
+  color: #d06b6b;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.baggrund-blå {
+  background-color: #bfe3d1;
+  padding: 12rem 0;
+  margin: 0;
+  width: 100%;
+}
+
+.baggrund-grøn {
+  background-color: #b6cc89;
+  padding: 6rem 2rem;
+  margin: 0;
+  width: 100%;
+}
+
+/************** MitLayout **************/
+
+.overskrift_mitlayout {
+  margin-top: 5rem;
+}
+
+.tekst_mitlayout1 {
+  margin: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.tekst_mitlayout2 {
+  margin: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.tekst_mitlayout3 {
+  margin: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.goderaad {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 4rem;
+  color: #d36e8f;
+}
+
+.liste_grid_1-1 {
+  justify-content: center;
+  padding: 1rem;
+}
+
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  text-align: center;
+  font-family: "oreganoregular";
+  font-size: 1.7rem;
+  line-height: 2;
+  margin-bottom: 1rem;
+  color: #2e281e;
+}
+
+/************** Udstyr **************/
+
+.beholdereogjord {
+  margin-bottom: 1rem;
+  margin-left: 21rem;
+  margin-top: 5rem;
+}
+
+.sologvandh3 {
+  margin-bottom: 1rem;
+  text-align: left;
+  margin-top: 5rem;
+}
+
+.hvadskaljegbruge {
+  padding-top: 5rem;
+}
+
+@media (max-width: 839px) {
+  .beholdereogjord,
+  .sologvandh3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/************** Planter **************/
+
+.planter_overskrift {
+  margin-top: 5rem;
+}
+
+.planter_tekst {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/************** Image ************/
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  box-sizing: border-box;
+  border: 40px solid #966128;
+  margin-top: 0.8rem;
+}
+
+/************** tekst **************/
+
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 3.2rem;
+  color: #a4506a;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.7rem;
+  font-family: "Oregano";
+  font-weight: 400;
+  font-style: normal;
+  font-family: "oreganoregular";
+  line-height: 1.6;
+  color: #2e281e;
+  margin-top: 0.3rem;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 4rem;
+  color: #d36e8f;
+}
+/******** Footer *******/
+footer {
+  background-color: #cca174;
+  padding: 2rem 0;
+  margin: 0;
+  width: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/******** Padding ******/
+
+@media (max-width: 840px) {
+  main {
+    margin: 70px;
+  }
+
+  .lavetafea {
+    margin: 10px;
+  }
+}
+
+@media (min-width: 440px) {
+  main {
+    margin: 2.5rem;
+  }
+
+  .lavetafea {
+    margin: 1.2rem;
+  }
+}
+
+/*********** Baggrundsfarver **********/
+body.forside_color {
+  background-color: #bfe3d1;
+}
+
+body.mitlayout_color {
+  background-color: #cbdebf;
+}
+
+body.planter_color {
+  background-color: #cce693;
+}
+
+body.udstyr_color {
+  background-color: #f1e2a2;
+}
+
+/************** Fonts **************/
+@font-face {
+  font-family: "oreganoregular";
+  src: url("oregano-regular-webfont.woff2") format("woff2"),
+    url("oregano-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/************* Burger ***********/
+
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger .line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #c05555;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+  .burger {
+    display: block;
+    background-color: transparent;
+    border: 0;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+
+  nav.active .menu {
+    display: block;
+    background-color: #ffffff;
+    position: absolute;
+    top: 94px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+
+  nav.active .menu a {
+    font-size: 24px;
+  }
+}
